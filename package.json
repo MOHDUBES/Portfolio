@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "scripts": {
-    "start": "npx browser-sync start --server --files \"*.*\""
+    "start": "node server.js",
+    "dev": "npx browser-sync start --server --files \"*.*\""
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
