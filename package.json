@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "scripts": {
+    "start": "npx browser-sync start --server --files \"*.*\""
+  }
+}
